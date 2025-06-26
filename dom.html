@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<<<<<<< HEAD
 <body>
     <div>
         <ul>
@@ -14,4 +15,58 @@
         </ul>
     </div>
 </body>
+=======
+<style>
+  
+</style>
+<body>
+    <ul class="om">
+        <li>javascript</li>
+       
+    </ul>
+      
+</body>
+<script>
+ function addLanguage(langName){
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`
+        document.querySelector('.om').appendChild(li)  //pehala
+    }
+    addLanguage("python")
+    addLanguage("typescript")
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//recomanded
+    // function addOptiLanguage(langName){
+    //     const li = document.createElement('li');
+    //     li.appendChild(document.createTextNode(langName))   //dusra
+    //     document.querySelector('.om').appendChild(li)
+    // }
+    // addOptiLanguage('golang')
+//===============================================================================================
+    //elementko eddet karne ke leye ye use hota hi 
+
+
+    // const secondLang = document.querySelector("li:nth-child(1)")  // edit karne ke pehala tareka
+    // console.log(secondLang);
+    // secondLang.innerHTML = "Mojo"
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    // const ccr = document.createElement('li')
+    // newli.textContent = "Mojo"                    // edit karnr ka dusra tareka
+    // secondLang.replaceWith(crr)
+
+//=====================================================================================================
+    // //edit
+    // const firstLang = document.querySelector("li:first-child")
+    // firstLang.outerHTML = '<li>TypeScript</li>'                 //edit karne ka tesra tareka
+
+//==============================================================================================================
+    // //remove
+    // const lastLang = document.querySelector('li:last-child')      //remove karne ka tareka ye hi
+    // lastLang.remove()
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+</script>
+>>>>>>> a62198e2ab30e765482c0a976ef87ebbe53023f0
 </html>
